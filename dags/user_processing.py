@@ -15,7 +15,7 @@ AIRFLOW_DIR=os.path.join(HOME_DIR, "airflow")
 sys.path.append(AIRFLOW_DIR)
 
 # local imports
-from include.functions.processing_user import _processing_user
+from include.functions.user_processing import _processing_user
 
 # args common to all the tasks within the DAG
 default_args = {
